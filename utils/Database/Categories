@@ -1,0 +1,6 @@
+INSERT INTO Categories (name, slug, createdAt, updatedAt) VALUES 
+  ('Pixel',   'pixel',   NOW(), NOW()),
+  ('Studio',  'studio',  NOW(), NOW()),
+  ('Union',   'union',   NOW(), NOW()),
+  ('Prime',   'prime',   NOW(), NOW()),
+  ('Junior',  'junior',  NOW(), NOW());

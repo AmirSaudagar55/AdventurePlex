@@ -1,0 +1,157 @@
+INSERT INTO Activities 
+  (category_id, name, description, price, duration, duration_unit, min_age, min_height, max_participants, type, image_url, createdAt, updatedAt)
+VALUES 
+  (1, 'Car Simulator', 
+   '{"Per Game": "₹295", "Game": "01", "Min Age/Min Height": "10+/4 ft", "Max Players": "03"}',
+    '₹295', NULL, NULL, 10, '4 ft', 3, 'group', 'https://playarena.in/wp-content/uploads/2024/07/Car_sim1.jpg', NOW(), NOW()),
+
+  (1, 'Cricket Simulator',
+   '{"Per Game": "₹295", "Game Duration": "3 Overs", "Min Age/Min height": "10 yrs/ 5ft", "Max Players": "02"}',
+    '₹295', 3, 'Overs', 10, '5ft', 2, 'group', 'https://playarena.in/wp-content/uploads/2024/07/Cnets_01.jpg', NOW(), NOW()),
+
+  (1, 'Lazermaze',
+   '{"Per Game": "₹295", "Game Duration": "10 Mins", "Min Age/Height": "10+yrs / 5ft", "Max Players": "06"}',
+    '₹295', 10, 'Mins', 10, '5ft', 6, 'group', 'https://playarena.in/wp-content/uploads/2024/07/lazermaze1.jpg', NOW(), NOW()),
+
+  (1, '7D Theatre',
+   '{"Per Game": "₹295", "Game Duration": "10 Mins", "Min Age/ Min Height": "7 yrs /4.5ft", "Max Players": "08"}',
+    '₹295', 10, 'Mins', 7, '4.5ft', 8, 'group', 'https://playarena.in/wp-content/uploads/2024/07/7D-1.jpg', NOW(), NOW()),
+
+  (1, 'VR Escape',
+   '{"Per Game": "₹395", "Game Duration": "10 Mins", "years": "13+", "Max Players": "04"}',
+    '₹395', 10, 'Mins', 13, NULL, 4, 'group', 'https://playarena.in/wp-content/uploads/2024/07/vrescape_01.jpg', NOW(), NOW()),
+
+  (1, 'VR Coaster',
+   '{"Per Game": "₹295", "Min Age/Height": "7+/4.5ft", "Game": "01", "Max Slots": "02"}',
+    '₹295', NULL, NULL, 7, '4.5ft', 2, 'group', 'https://playarena.in/wp-content/uploads/2024/07/vr-coaster-4.jpg', NOW(), NOW());
+
+
+
+
+
+---------------------------------------------------------------------------------------
+id = 2
+INSERT INTO Activities 
+  (category_id, name, description, price, duration, duration_unit, min_age, min_height, max_weight, max_participants, games_available, type, image_url, createdAt, updatedAt)
+VALUES 
+  (2, 'Archery', 
+   '{"Per Game": "₹354", "Arrows": "15", "Min Age/Min Height": "10/5ft", "Max Archers": "06"}',
+    '₹354', NULL, NULL, 10, '5ft', NULL, 6, NULL, 'group', 'https://playarena.in/wp-content/uploads/2024/08/Archery-4.jpg', NOW(), NOW()),
+
+  (2, 'Rope Course',
+   '{"Per Attempt": "₹354", "Levels": "2", "Min Age/Min Height": "7+/4.5ft", "Max Weight": "90 Kgs"}',
+    '₹354', NULL, NULL, 7, '4.5ft', '90 Kgs', NULL, NULL, 'group', 'https://playarena.in/wp-content/uploads/2024/08/Ropecourse_05.jpg', NOW(), NOW()),
+
+  (2, 'Climbing',
+   '{"Per Game": "₹354", "Attempts": "3", "Min Age/Min Height": "7+/4.5ft", "Max Weight": "90 Kgs"}',
+    '₹354', NULL, NULL, 7, '4.5ft', '90 Kgs', NULL, NULL, 'group', 'https://playarena.in/wp-content/uploads/2024/08/climbing_01.jpg', NOW(), NOW()),
+
+  (2, 'Trampoline Park',
+   '{"Per Session": "₹354", "Session Duration": "20 Mins", "Min Age/Min Height": "7+/4.5ft", "Max Weight": "90 Kgs"}',
+    '₹354', 20, 'Mins', 7, '4.5ft', '90 Kgs', NULL, NULL, 'group', 'https://playarena.in/wp-content/uploads/2024/08/trampoline_01.jpg', NOW(), NOW()),
+
+  (2, 'Shooting',
+   '{"Per Game": "₹354", "Pellets": "15", "Min Age/Min Height": "10+/5ft", "Max Shooters": "06"}',
+    '₹354', NULL, NULL, 10, '5ft', NULL, 6, NULL, 'group', 'https://playarena.in/wp-content/uploads/2024/08/shooting-1.jpg', NOW(), NOW()),
+
+  (2, 'Carnival Games',
+   '{"Per Game": "₹125", "Game": "1", "Min Age": "5 Years", "Games Available": "14"}',
+    '₹125', NULL, NULL, 5, NULL, NULL, NULL, 14, 'group', 'https://playarena.in/wp-content/uploads/2024/07/carnival_01.jpg', NOW(), NOW());
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------
+id = 3
+INSERT INTO Activities 
+  (category_id, name, description, price, duration, duration_unit, min_age, min_height, max_weight, max_participants, type, image_url, createdAt, updatedAt)
+VALUES 
+  (3, 'Badminton', 
+   '{"Per Hour": "₹400", "Min Duration": "60 Mins", "Age Groups": "All", "Max Players": "04"}',
+    '₹400', 60, 'Mins', NULL, NULL, NULL, 4, 'group', 'https://playarena.in/wp-content/uploads/2024/08/badminton_01.jpg', NOW(), NOW()),
+
+  (3, 'Cricket Nets',
+   '{"Per Hour": "₹600", "Min Duration": "60 Mins", "Age Groups": "All", "Nets": "4"}',
+    '₹600', 60, 'Mins', NULL, NULL, NULL, NULL, 'group', 'https://playarena.in/wp-content/uploads/2024/08/Cnets-01.jpg', NOW(), NOW()),
+
+  (3, 'Swimming Pool',
+   '{"Per Hour": "₹3000", "Min Duration": "60 Mins", "Min Height": "4.5ft", "Max Swimmers": "10"}',
+    '₹3000', 60, 'Mins', NULL, '4.5ft', NULL, 10, 'group', 'https://playarena.in/wp-content/uploads/2024/08/pool-4.jpg', NOW(), NOW()),
+
+  (3, 'Skate Park',
+   '{"Per Day": "₹450", "Your day, your time!": "No Limits", "Age Groups": "All", "Max Players": "50"}',
+    '₹450', NULL, NULL, NULL, NULL, NULL, 50, 'group', 'https://playarena.in/wp-content/uploads/2024/08/skate_park_01.jpg', NOW(), NOW()),
+
+  (3, 'Gym',
+   '{"Per Day": "₹500", "Usage Per Day": "Unlimited", "Years": "18+", "Users at a time": "Max 20"}',
+    '₹500', NULL, NULL, 18, NULL, NULL, 20, 'group', 'https://playarena.in/wp-content/uploads/2024/07/gym_01.jpg', NOW(), NOW());
+
+
+
+
+
+--------------------------------------------------------------------------------------------
+id=4
+
+-- Gokarting
+INSERT INTO Activities 
+  (category_id, name, description, price, laps_per_race, duration, duration_unit, min_age, min_height, max_participants, type, image_url, createdAt, updatedAt)
+VALUES 
+  (4, 'Gokarting',
+   '{"For 6 Laps": "₹395", "Laps Per Race": "06", "Min Height": "5ft", "Racers at a go": "5"}',
+    '₹395', 6, NULL, NULL, NULL, '5ft', 5, 'group', 'https://playarena.in/wp-content/uploads/2024/07/Gokart-1.jpg', NOW(), NOW()),
+
+  (4, 'Bowling',
+   '{"Per Player": "₹395", "Per game": "10 Frames", "Min Age": "10+yrs", "players per alley": "4"}',
+    '₹395', NULL, NULL, NULL, 10, NULL, 4, 'group', 'https://playarena.in/wp-content/uploads/2023/12/bowling_1.jpg', NOW(), NOW()),
+
+  (4, 'Lasertag',
+   '{"Per Game": "10 Mins", "Min Height": "4.5 Ft", "Max Players": "10"}',
+    NULL, NULL, 10, 'Mins', NULL, '4.5 Ft', 10, 'group', 'https://playarena.in/wp-content/uploads/2024/07/lasertag_06.jpg', NOW(), NOW()),
+
+  (4, 'Paintball',
+   '{"Per Player": "₹395", "Per Game": "20 Mins", "Paintballs": "30", "Max Players": "10"}',
+    '₹395', NULL, 20, 'Mins', NULL, NULL, 10, 'group', 'https://playarena.in/wp-content/uploads/2024/07/paintball_6.jpg', NOW(), NOW()),
+
+  (4, 'Bumper Cars',
+   '{"Per Game": "7 Mins", "min Age": "8+", "Max Players": "8"}',
+    NULL, NULL, 7, 'Mins', 8, NULL, 8, 'group', 'https://playarena.in/wp-content/uploads/2024/10/bumper4.jpg', NOW(), NOW());
+
+-- (Virtual Verve is skipped because details are null)
+
+
+
+
+
+-----------------------------------------------------------------------------------------------
+id= 5
+
+-- Little Gym
+INSERT INTO Activities 
+  (category_id, name, description, duration, duration_unit, max_participants, type, image_url, createdAt, updatedAt)
+VALUES 
+  (5, 'Little Gym',
+   '{"Per Session": "60 Mins", "Max Age": "12 Years", "Max Per Session": "18"}',
+    60, 'Mins', 18, 'group', 'https://playarena.in/wp-content/uploads/2024/07/little_gym_01.jpg', NOW(), NOW()),
+
+  (5, 'Soft Play',
+   '{"Per Session": "60 Mins", "Age Eligibility": "1-12 Years", "Max Per Session": "25"}',
+    60, 'Mins', 25, 'group', 'https://playarena.in/wp-content/uploads/2024/07/softplay-05.jpg', NOW(), NOW());
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------

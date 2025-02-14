@@ -1,0 +1,143 @@
+{
+  'Car Simulator': {
+    'Per Game': '₹295',
+    Game: '01',
+    'Min Age/Min Height': '10+/4 ft',
+    'Max Players': '03'
+  },
+  'Cricket Simulator': {
+    'Per Game': '₹295',
+    'Game Duration': '3 Overs',
+    'Min Age/Min height': '10 yrs/ 5ft',
+    'Max Players': '02'
+  },
+  Lazermaze: {
+    'Per Game': '₹295',
+    'Game Duration': '10 Mins',
+    'Min Age/Height': '10+yrs / 5ft',
+    'Max Players': '06'
+  },
+  '7D Theatre': {
+    'Per Game': '₹295',
+    'Game Duration': '10 Mins',
+    'Min Age/ Min Height': '7 yrs /4.5ft',
+    'Max Players': '08'
+  },
+  'VR Escape': {
+    'Per Game': '₹395',
+    'Game Duration': '10 Mins',
+    years: '13+',
+    'Max Players': '04'
+  },
+  'VR Coaster': {
+    'Per Game': '₹295',
+    'Min Age/Height': '7+/4.5ft',
+    Game: '01',
+    'Max Slots': '02'
+  },
+  Archery: {
+    'Per Game': '₹354',
+    Arrows: '15',
+    'Min Age/Min Height': '10/5ft',
+    'Max Archers': '06'
+  },
+  'Rope Course': {
+    'Per Attempt': '₹354',
+    Levels: '2',
+    'Min Age/Min Height': '7+/4.5ft',
+    'Max Weight': '90 Kgs'
+  },
+  'Rocket Ejector': null,
+  Climbing: {
+    'Per Game': '₹354',
+    Attempts: '3',
+    'Min Age/Min Height': '7+/4.5ft',
+    'Max Weight': '90 Kgs'
+  },
+  'Trampoline Park': {
+    'Per Session': '₹354',
+    'Session Duration': '20 Mins',
+    'Min Age/Min Height': '7+/4.5ft',
+    'Max Weight': '90 Kgs'
+  },
+  Shooting: {
+    'Per Game': '₹354',
+    Pellets: '15',
+    'Min Age/Min Height': '10+/5ft',
+    'Max Shooters': '06'
+  },
+  'Carnival Games': {
+    'Per Game': '₹125',
+    Game: '1',
+    'Min Age': '5 Years',
+    'Games Available': '14'
+  },
+  'The Field': null,
+  Badminton: {
+    'Per Hour': '₹400',
+    'Min Duration': '60 Mins',
+    'Age Groups': 'All',
+    'Max Players': '04'
+  },
+  Basketball: null,
+  'Cricket Nets': {
+    'Per Hour': '₹600',
+    'Min Duration': '60 Mins',
+    'Age Groups': 'All',
+    Nets: '4'
+  },
+  'Swimming Pool': {
+    'Per Hour': '₹3000',
+    'Min Duration': '60 Mins',
+    'Min Height': '4.5ft',
+    'Max Swimmers': '10'
+  },
+  'Skate Park': {
+    'Per Day': '₹450',
+    'Your day, your time!': 'No Limits',
+    'Age Groups': 'All',
+    'Max Players': '50'
+  },
+  Gym: {
+    'Per Day': '₹500',
+    'Usage Per Day': 'Unlimited',
+    Years: '18+',
+    'Users at a time': 'Max 20'
+  },
+  Gokarting: {
+    'For 6 Laps': '₹395',
+    'Laps Per Race': '06',
+    'Min Height': '5ft',
+    'Racers at a go': '5'
+  },
+  Bowling: {
+    'Per Player': '₹395',
+    'Per game': '10 Frames',
+    'Min Age': '10+yrs',
+    'players per alley': '4'
+  },
+  Lasertag: {
+    'Per Game': '10 Mins',
+    'Min Height': '4.5 Ft',
+    'Max Players': '10'
+  },
+  Paintball: {
+    'Per Player': '₹395',
+    'Per Game': '20 Mins',
+    Paintballs: '30',
+    'Max Players': '10'
+  },
+  'Off Road ATV': null,
+  'Bumper Cars': { 'Per Game': '7 Mins', 'min Age': '8+', 'Max Players': '8' },
+  'Virtual Verve': null,
+  'Little Gym': {
+    'Per Session': '60 Mins',
+    'Max Age': '12 Years',
+    'Max Per Session': '18'
+  },
+  'Soft Play': {
+    'Per Session': '60 Mins',
+    'Age Eigibility': '1-12 Years',
+    'Max Per Session': '25'
+  }
+}

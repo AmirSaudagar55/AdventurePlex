@@ -1,0 +1,363 @@
+Scraped Activity Data: {
+  'Car Simulator': {
+    details: {
+      'Per Game': '₹295',
+      Game: '01',
+      'Min Age/Min Height': '10+/4 ft',
+      'Max Players': '03'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/07/Car_sim1.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/Car_sim2.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/Car_sim3.jpg'
+    ]
+  },
+  'Cricket Simulator': {
+    details: {
+      'Per Game': '₹295',
+      'Game Duration': '3 Overs',
+      'Min Age/Min height': '10 yrs/ 5ft',
+      'Max Players': '02'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/07/Cnets_01.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/Cnets_02.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/Cnets_03.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/Cnets_04-scaled.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/Cnets_05-scaled.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/Cnets_06.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/Cnets_07.jpg'
+    ]
+  },
+  Lazermaze: {
+    details: {
+      'Per Game': '₹295',
+      'Game Duration': '10 Mins',
+      'Min Age/Height': '10+yrs / 5ft',
+      'Max Players': '06'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/07/lazermaze1.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/lazermaze2.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/lazermaze3.jpg'
+    ]
+  },
+  '7D Theatre': {
+    details: {
+      'Per Game': '₹295',
+      'Game Duration': '10 Mins',
+      'Min Age/ Min Height': '7 yrs /4.5ft',
+      'Max Players': '08'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/07/7D-1.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/7D-2.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/7D-3.jpg'
+    ]
+  },
+  'VR Escape': {
+    details: {
+      'Per Game': '₹395',
+      'Game Duration': '10 Mins',
+      years: '13+',
+      'Max Players': '04'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/07/vrescape_01.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/vrescape_02.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/vrescape_03.jpg'
+    ]
+  },
+  'VR Coaster': {
+    details: {
+      'Per Game': '₹295',
+      'Min Age/Height': '7+/4.5ft',
+      Game: '01',
+      'Max Slots': '02'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/07/vr-coaster-4.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/vr-coaster-3.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/vr-coaster-2.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/vr-coaster-1.jpg'
+    ]
+  },
+  Archery: {
+    details: {
+      'Per Game': '₹354',
+      Arrows: '15',
+      'Min Age/Min Height': '10/5ft',
+      'Max Archers': '06'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/08/Archery-4.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/TP-img10.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/Archery-5.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/Archery-3.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/Archery-2.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/Arachery-1.jpg'
+    ]
+  },
+  'Rope Course': {
+    details: {
+      'Per Attempt': '₹354',
+      Levels: '2',
+      'Min Age/Min Height': '7+/4.5ft',
+      'Max Weight': '90 Kgs'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/08/Ropecourse_05.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/Ropecourse_01.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/Ropecourse_02.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/Ropecourse_03.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/Ropecourse_04.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/Ropecourse_06.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/Ropecourse_07.jpg'
+    ]
+  },
+  'Rocket Ejector': null,
+  Climbing: {
+    details: {
+      'Per Game': '₹354',
+      Attempts: '3',
+      'Min Age/Min Height': '7+/4.5ft',
+      'Max Weight': '90 Kgs'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/08/climbing_01.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/climbing_02-scaled.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/climbing_03.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/climbing_04.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/climbing_05.jpg'
+    ]
+  },
+  'Trampoline Park': {
+    details: {
+      'Per Session': '₹354',
+      'Session Duration': '20 Mins',
+      'Min Age/Min Height': '7+/4.5ft',
+      'Max Weight': '90 Kgs'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/07/trampoline_01.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/trampoline_02.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/trampoline_03.jpg'
+    ]
+  },
+  Shooting: {
+    details: {
+      'Per Game': '₹354',
+      Pellets: '15',
+      'Min Age/Min Height': '10+/5ft',
+      'Max Shooters': '06'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/08/shooting-1.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/shooting-2.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/shooting-3.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/shooting-4.jpg'
+    ]
+  },
+  'Carnival Games': {
+    details: {
+      'Per Game': '₹125',
+      Game: '1',
+      'Min Age': '5 Years',
+      'Games Available': '14'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/07/carnival_01.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/carnival_02.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/carnival_03.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/carnival_04.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/carnival_05.jpg'
+    ]
+  },
+  'The Field': null,
+  Badminton: {
+    details: {
+      'Per Hour': '₹400',
+      'Min Duration': '60 Mins',
+      'Age Groups': 'All',
+      'Max Players': '04'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/08/badminton_01.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/badminton_02.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/badminton_03.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/badminton_04.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/badminton_05.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/badminton_06.jpg'
+    ]
+  },
+  Basketball: null,
+  'Cricket Nets': {
+    details: {
+      'Per Hour': '₹600',
+      'Min Duration': '60 Mins',
+      'Age Groups': 'All',
+      Nets: '4'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/08/Cnets-01.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/Cnets-02.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/Cnets-03.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/Cnets-04.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/Cnets-05.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/Cnets-06.jpg'
+    ]
+  },
+  'Swimming Pool': {
+    details: {
+      'Per Hour': '₹3000',
+      'Min Duration': '60 Mins',
+      'Min Height': '4.5ft',
+      'Max Swimmers': '10'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/08/pool-4.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/pool-1.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/pool-2.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/pool-3.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/pool-21.jpg'
+    ]
+  },
+  'Skate Park': {
+    details: {
+      'Per Day': '₹450',
+      'Your day, your time!': 'No Limits',
+      'Age Groups': 'All',
+      'Max Players': '50'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/08/skate_park_01.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/skate_park_02.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/skate_park_03.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/skate_park_04.jpg',
+      'https://playarena.in/wp-content/uploads/2024/08/skate_park_05.jpg'
+    ]
+  },
+  Gym: {
+    details: {
+      'Per Day': '₹500',
+      'Usage Per Day': 'Unlimited',
+      Years: '18+',
+      'Users at a time': 'Max 20'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/07/gym_01.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/gym_02.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/gym_03.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/gym_04.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/gym_05.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/gym_06.jpg'
+    ]
+  },
+  Gokarting: {
+    details: {
+      'For 6 Laps': '₹395',
+      'Laps Per Race': '06',
+      'Min Height': '5ft',
+      'Racers at a go': '5'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/07/Gokart-1.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/GK-img4-scaled.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/GK-img1-scaled.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/Gokart-2.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/Gokart-3.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/Gokart-4.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/Gokart-5.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/Gokart-6.jpg'
+    ]
+  },
+  Bowling: {
+    details: {
+      'Per Player': '₹395',
+      'Per game': '10 Frames',
+      'Min Age': '10+yrs',
+      'players per alley': '4'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2023/12/bowling_1.jpg',
+      'https://playarena.in/wp-content/uploads/2023/12/bowling_2.jpg',
+      'https://playarena.in/wp-content/uploads/2023/12/bowling_3.jpg',
+      'https://playarena.in/wp-content/uploads/2023/12/bowling_4.jpg',
+      'https://playarena.in/wp-content/uploads/2023/12/bowling_5.jpg',
+      'https://playarena.in/wp-content/uploads/2023/12/bowling_6.jpg',
+      'https://playarena.in/wp-content/uploads/2023/12/bowling_7.jpg',
+      'https://playarena.in/wp-content/uploads/2023/12/bowling_8.jpg'
+    ]
+  },
+  Lasertag: {
+    details: {
+      'Per Game': '10 Mins',
+      'Min Height': '4.5 Ft',
+      'Max Players': '10'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/07/lasertag_06.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/lasertag_05.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/lasertag_04.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/lasertag_03.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/lasertag_02.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/lasertag_01.jpg'
+    ]
+  },
+  Paintball: {
+    details: {
+      'Per Player': '₹395',
+      'Per Game': '20 Mins',
+      Paintballs: '30',
+      'Max Players': '10'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/07/paintball_6.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/paintball_7.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/paintball_5.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/paintball_4.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/paintball_3.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/paintball_2.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/paintball_1.jpg'
+    ]
+  },
+  'Off Road ATV': null,
+  'Bumper Cars': {
+    details: { 'Per Game': '7 Mins', 'min Age': '8+', 'Max Players': '8' },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/10/bumper4.jpg',
+      'https://playarena.in/wp-content/uploads/2024/10/bumper3.jpg',
+      'https://playarena.in/wp-content/uploads/2024/10/bumper2.jpg',
+      'https://playarena.in/wp-content/uploads/2024/10/bumper1.jpg'
+    ]
+  },
+  'Virtual Verve': null,
+  'Little Gym': {
+    details: {
+      'Per Session': '60 Mins',
+      'Max Age': '12 Years',
+      'Max Per Session': '18'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/07/little_gym_01.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/little_gym_02.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/little_gym_03.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/little_gym_04.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/little_gym_05.jpg'
+    ]
+  },
+  'Soft Play': {
+    details: {
+      'Per Session': '60 Mins',
+      'Age Eigibility': '1-12 Years',
+      'Max Per Session': '25'
+    },
+    imageUrls: [
+      'https://playarena.in/wp-content/uploads/2024/07/softplay-05.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/softplay-04.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/softplay-03.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/softplay-02.jpg',
+      'https://playarena.in/wp-content/uploads/2024/07/softplay-01.jpg'
+    ]
+  }
+}

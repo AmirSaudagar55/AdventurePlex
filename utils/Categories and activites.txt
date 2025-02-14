@@ -1,0 +1,69 @@
+{
+  Pixel: [
+    'Car Simulator',
+    'Cricket Simulator',
+    'Lazermaze',
+    '7D Theatre',
+    'VR Escape',
+    'VR Coaster'
+  ],
+  'Car Simulator': [
+    'Cricket Simulator',
+    'Lazermaze',
+    '7D Theatre',
+    'VR Escape',
+    'VR Coaster'
+  ],
+  Studio: [
+    'Archery',
+    'Rope Course',
+    'Rocket Ejector',
+    'Climbing',
+    'Trampoline Park',
+    'Shooting',
+    'Carnival Games'
+  ],
+  Archery: [
+    'Rope Course',
+    'Rocket Ejector',
+    'Climbing',
+    'Trampoline Park',
+    'Shooting',
+    'Carnival Games'
+  ],
+  Union: [
+    'The Field',
+    'Badminton',
+    'Basketball',
+    'Cricket Nets',
+    'Swimming Pool',
+    'Skate Park',
+    'Gym'
+  ],
+  'The Field': [
+    'Badminton',
+    'Basketball',
+    'Cricket Nets',
+    'Swimming Pool',
+    'Skate Park',
+    'Gym'
+  ],
+  Prime: [
+    'Gokarting',
+    'Bowling',
+    'Lasertag',
+    'Paintball',
+    'Off Road ATV',
+    'Bumper Cars',
+    'Virtual Verve'
+  ],
+  Gokarting: [
+    'Bowling',
+    'Lasertag',
+    'Paintball',
+    'Off Road ATV',
+    'Bumper Cars',
+    'Virtual Verve'
+  ],
+  Junior: [ 'Little Gym', 'Soft Play' ]
+}
