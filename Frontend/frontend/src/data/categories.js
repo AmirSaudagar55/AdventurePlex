@@ -1,0 +1,42 @@
+export const categories = [
+  {
+    id: '1',
+    name: 'Prime',
+    slug: 'prime',
+    description: 'Strategy and action sports for thrill-seekers',
+    image: 'https://images.unsplash.com/photo-1607627000458-210e8d2bdb1d?q=80&w=2049&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    color: 'indigo',
+  },
+  {
+    id: '2',
+    name: 'Studio',
+    slug: 'studio',
+    description: 'Short-format, high-thrill simulated experiences',
+    image: 'https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&q=80&w=1600',
+    color: 'rose',
+  },
+  {
+    id: '3',
+    name: 'Union',
+    slug: 'union',
+    description: 'Classic recreational sports and activities',
+    image: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&q=80&w=1600',
+    color: 'amber',
+  },
+  {
+    id: '4',
+    name: 'Junior',
+    slug: 'junior',
+    description: 'Safe and fun activities for young adventurers',
+    image: 'https://images.unsplash.com/photo-1472162072942-cd5147eb3902?auto=format&fit=crop&q=80&w=1600',
+    color: 'emerald',
+  },
+  {
+    id: '5',
+    name: 'Pixel',
+    slug: 'pixel',
+    description: 'Immersive gaming and virtual experiences',
+    image: 'https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?auto=format&fit=crop&q=80&w=1600',
+    color: 'purple',
+  },
+] as const;

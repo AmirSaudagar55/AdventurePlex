@@ -155,3 +155,284 @@ VALUES
 
 
 ---------------------------------------------------------------------
+
+                                          Refined 
+                                          INSERT INTO Activities 
+  (category_id, name, description, will_price_remain_same_for_whole_group, price, 
+   maximum_group_members_allowed, duration, duration_unit, min_age, min_height, 
+   max_weight, max_participants_per_slots, games_available, laps_per_race, type, 
+   image_url, available, createdAt, updatedAt)
+VALUES 
+-- Category 1: Prime
+(1, 'Car Simulator', 
+ '{"Per Game": "₹295", "Game": "01", "Min Age/Min Height": "10+/4 ft", "Max Players": "03"}',
+ true, '₹295', 3, 8, 'Mins', 10, '4 ft', NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/07/Car_sim1.jpg', true, NOW(), NOW()),
+(1, 'Cricket Simulator', 
+ '{"Per Game": "₹295", "Game Duration": "3 Overs", "Min Age/Min height": "10 yrs/ 5ft", "Max Players": "02"}',
+ true, '₹295', 2, 18, 'Mins', 10, '5ft', NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/07/Cnets_01.jpg', true, NOW(), NOW()),
+(1, 'Lazermaze', 
+ '{"Per Game": "₹295", "Game Duration": "10 Mins", "Min Age/Height": "10+yrs / 5ft", "Max Players": "06"}',
+ true, '₹295', 6, 10, 'Mins', 10, '5ft', NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/07/lazermaze1.jpg', true, NOW(), NOW()),
+(1, '7D Theatre', 
+ '{"Per Game": "₹295", "Game Duration": "10 Mins", "Min Age/ Min Height": "7 yrs /4.5ft", "Max Players": "08"}',
+ true, '₹295', 8, 10, 'Mins', 7, '4.5ft', NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/07/7D-1.jpg', true, NOW(), NOW()),
+(1, 'VR Escape', 
+ '{"Per Game": "₹395", "Game Duration": "10 Mins", "years": "13+", "Max Players": "04"}',
+ true, '₹395', 4, 10, 'Mins', 13, NULL, NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/07/vrescape_01.jpg', true, NOW(), NOW()),
+(1, 'VR Coaster', 
+ '{"Per Game": "₹295", "Min Age/Height": "7+/4.5ft", "Game": "01", "Max Slots": "02"}',
+ true, '₹295', 2, 8, 'Mins', 7, '4.5ft', NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/07/vr-coaster-4.jpg', true, NOW(), NOW()),
+
+-- Category 2: Studio
+(2, 'Archery', 
+ '{"Per Game": "₹354", "Arrows": "15", "Min Age/Min Height": "10/5ft", "Max Archers": "06"}',
+ true, '₹354', 6, 15, 'Mins', 10, '5ft', NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/08/Archery-4.jpg', true, NOW(), NOW()),
+(2, 'Rope Course', 
+ '{"Per Attempt": "₹354", "Levels": "2", "Min Age/Min Height": "7+/4.5ft", "Max Weight": "90 Kgs"}',
+ true, '₹354', 10, 20, 'Mins', 7, '4.5ft', '90 Kgs', 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/08/Ropecourse_05.jpg', true, NOW(), NOW()),
+(2, 'Climbing', 
+ '{"Per Game": "₹354", "Attempts": "3", "Min Age/Min Height": "7+/4.5ft", "Max Weight": "90 Kgs"}',
+ true, '₹354', 10, 20, 'Mins', 7, '4.5ft', '90 Kgs', 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/08/climbing_01.jpg', true, NOW(), NOW()),
+(2, 'Trampoline Park', 
+ '{"Per Session": "₹354", "Session Duration": "20 Mins", "Min Age/Min Height": "7+/4.5ft", "Max Weight": "90 Kgs"}',
+ true, '₹354', 20, 20, 'Mins', 7, '4.5ft', '90 Kgs', 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/08/trampoline_01.jpg', true, NOW(), NOW()),
+(2, 'Shooting', 
+ '{"Per Game": "₹354", "Pellets": "15", "Min Age/Min Height": "10+/5ft", "Max Shooters": "06"}',
+ true, '₹354', 6, 15, 'Mins', 10, '5ft', NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/08/shooting-1.jpg', true, NOW(), NOW()),
+(2, 'Carnival Games', 
+ '{"Per Game": "₹125", "Game": "1", "Min Age": "5 Years", "Games Available": "14"}',
+ true, '₹125', 14, 10, 'Mins', 5, NULL, NULL, 20, 14, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/07/carnival_01.jpg', true, NOW(), NOW()),
+
+-- Category 3: Union
+(3, 'Badminton', 
+ '{"Per Hour": "₹400", "Min Duration": "60 Mins", "Age Groups": "All", "Max Players": "04"}',
+ true, '₹400', 4, 60, 'Mins', NULL, NULL, NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/08/badminton_01.jpg', true, NOW(), NOW()),
+(3, 'Cricket Nets', 
+ '{"Per Hour": "₹600", "Min Duration": "60 Mins", "Age Groups": "All", "Nets": "4"}',
+ true, '₹600', 4, 60, 'Mins', NULL, NULL, NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/08/Cnets-01.jpg', true, NOW(), NOW()),
+(3, 'Swimming Pool', 
+ '{"Per Hour": "₹3000", "Min Duration": "60 Mins", "Min Height": "4.5ft", "Max Swimmers": "10"}',
+ true, '₹3000', 10, 60, 'Mins', NULL, '4.5ft', NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/08/pool-4.jpg', true, NOW(), NOW()),
+(3, 'Skate Park', 
+ '{"Per Day": "₹450", "Your day, your time!": "No Limits", "Age Groups": "All", "Max Players": "50"}',
+ true, '₹450', 50, 240, 'Mins', NULL, NULL, NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/08/skate_park_01.jpg', true, NOW(), NOW()),
+(3, 'Gym', 
+ '{"Per Day": "₹500", "Usage Per Day": "Unlimited", "Years": "18+", "Users at a time": "Max 20"}',
+ true, '₹500', 20, 480, 'Mins', 18, NULL, NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/07/gym_01.jpg', true, NOW(), NOW()),
+
+-- Category 4: Junior
+(4, 'Gokarting', 
+ '{"For 6 Laps": "₹395", "Laps Per Race": "06", "Min Height": "5ft", "Racers at a go": "5"}',
+ true, '₹395', 5, 15, 'Mins', NULL, '5ft', NULL, 20, NULL, 6, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/07/Gokart-1.jpg', true, NOW(), NOW()),
+(4, 'Bowling', 
+ '{"Per Player": "₹395", "Per game": "10 Frames", "Min Age": "10+yrs", "players per alley": "4"}',
+ true, '₹395', 4, 30, 'Mins', 10, NULL, NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2023/12/bowling_1.jpg', true, NOW(), NOW()),
+(4, 'Lasertag', 
+ '{"Per Game": "10 Mins", "Min Height": "4.5 Ft", "Max Players": "10"}',
+ true, '₹395', 10, 10, 'Mins', NULL, '4.5 Ft', NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/07/lasertag_06.jpg', true, NOW(), NOW()),
+(4, 'Paintball', 
+ '{"Per Player": "₹395", "Per Game": "20 Mins", "Paintballs": "30", "Max Players": "10"}',
+ true, '₹395', 10, 20, 'Mins', NULL, NULL, NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/07/paintball_6.jpg', true, NOW(), NOW()),
+(4, 'Bumper Cars', 
+ '{"Per Game": "7 Mins", "min Age": "8+", "Max Players": "8"}',
+ true, '₹395', 8, 7, 'Mins', 8, NULL, NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/10/bumper4.jpg', true, NOW(), NOW()),
+
+-- Category 5: Pixel
+(5, 'Little Gym', 
+ '{"Per Session": "60 Mins", "Max Age": "12 Years", "Max Per Session": "18"}',
+ true, '₹400', 18, 60, 'Mins', NULL, NULL, NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/07/little_gym_01.jpg', true, NOW(), NOW()),
+(5, 'Soft Play', 
+ '{"Per Session": "60 Mins", "Age Eligibility": "1-12 Years", "Max Per Session": "25"}',
+ true, '₹350', 25, 60, 'Mins', NULL, NULL, NULL, 20, NULL, NULL, 'group', 
+ 'https://playarena.in/wp-content/uploads/2024/07/softplay-05.jpg', true, NOW(), NOW());
+
+
+-- Category 1: Prime
+
+UPDATE Activities 
+SET 
+  description = 'Experience the thrill of a realistic car driving simulation game.',
+  min_age = 10,
+  min_height = '4 ft'
+WHERE name = 'Car Simulator';
+
+UPDATE Activities 
+SET 
+  description = 'Experience a cricket simulation with fast-paced overs and realistic gameplay.',
+  min_age = 10,
+  min_height = '5ft'
+WHERE name = 'Cricket Simulator';
+
+UPDATE Activities 
+SET 
+  description = 'Navigate a thrilling maze with lasers in a fast-paced, interactive game.',
+  min_age = 10,
+  min_height = '5ft'
+WHERE name = 'Lazermaze';
+
+UPDATE Activities 
+SET 
+  description = 'Immerse yourself in a 7D theatre experience with multi-sensory visuals and sound.',
+  min_age = 7,
+  min_height = '4.5ft'
+WHERE name = '7D Theatre';
+
+UPDATE Activities 
+SET 
+  description = 'Enter a virtual reality escape room for an exhilarating challenge.',
+  min_age = 13
+WHERE name = 'VR Escape';
+
+UPDATE Activities 
+SET 
+  description = 'Enjoy a thrilling VR coaster ride with immersive virtual reality technology.',
+  min_age = 7,
+  min_height = '4.5ft'
+WHERE name = 'VR Coaster';
+
+
+-- Category 2: Studio
+
+UPDATE Activities 
+SET 
+  description = 'Test your aim at our archery range with a set of 15 arrows and expert guidance.',
+  min_age = 10,
+  min_height = '5ft'
+WHERE name = 'Archery';
+
+UPDATE Activities 
+SET 
+  description = 'Challenge yourself on our rope course featuring two levels and safety measures.',
+  min_age = 7,
+  min_height = '4.5ft',
+  max_weight = '90 Kgs'
+WHERE name = 'Rope Course';
+
+UPDATE Activities 
+SET 
+  description = 'Scale new heights with our climbing challenge, complete with three attempts and safety guidelines.',
+  min_age = 7,
+  min_height = '4.5ft',
+  max_weight = '90 Kgs'
+WHERE name = 'Climbing';
+
+UPDATE Activities 
+SET 
+  description = 'Bounce into fun at our trampoline park with a 20-minute session and secure environment.',
+  min_age = 7,
+  min_height = '4.5ft',
+  max_weight = '90 Kgs'
+WHERE name = 'Trampoline Park';
+
+UPDATE Activities 
+SET 
+  description = 'Experience precision shooting with professional equipment and expert guidance.',
+  min_age = 10,
+  min_height = '5ft'
+WHERE name = 'Shooting';
+
+UPDATE Activities 
+SET 
+  description = 'Enjoy a variety of fun carnival games with an assortment of 14 games available.',
+  min_age = 5
+WHERE name = 'Carnival Games';
+
+
+-- Category 3: Union
+
+UPDATE Activities 
+SET 
+  description = 'Play a game of badminton in our well-equipped court with professional lighting and facilities.'
+WHERE name = 'Badminton';
+
+UPDATE Activities 
+SET 
+  description = 'Practice your batting and bowling in our professionally set-up cricket nets.'
+WHERE name = 'Cricket Nets';
+
+UPDATE Activities 
+SET 
+  description = 'Enjoy a refreshing swim in our well-maintained pool with a capacity for 10 swimmers.',
+  min_height = '4.5ft'
+WHERE name = 'Swimming Pool';
+
+UPDATE Activities 
+SET 
+  description = 'Skate at our expansive park with no time limits and space for up to 50 players.'
+WHERE name = 'Skate Park';
+
+UPDATE Activities 
+SET 
+  description = 'Work out in our fully-equipped gym with unlimited daily access and a capacity of 20 users at a time.',
+  min_age = 18
+WHERE name = 'Gym';
+
+
+-- Category 4: Junior
+
+UPDATE Activities 
+SET 
+  description = 'Race your friends in an exciting go-karting challenge with 6 laps per race.',
+  min_height = '5ft',
+  laps_per_race = 6,
+  maximum_group_members_allowed = 5
+WHERE name = 'Gokarting';
+
+UPDATE Activities 
+SET 
+  description = 'Enjoy a classic game of bowling with 10 frames per game and a maximum of 4 players per alley.',
+  min_age = 10
+WHERE name = 'Bowling';
+
+UPDATE Activities 
+SET 
+  description = 'Engage in a fast-paced game of lasertag in our state-of-the-art arena.',
+  min_height = '4.5 Ft'
+WHERE name = 'Lasertag';
+
+UPDATE Activities 
+SET 
+  description = 'Experience the excitement of paintball with 30 paintballs per game and a maximum of 10 players.'
+WHERE name = 'Paintball';
+
+UPDATE Activities 
+SET 
+  description = 'Have a fun-filled ride on our bumper cars designed for thrilling collisions.',
+  min_age = 8
+WHERE name = 'Bumper Cars';
+
+
+-- Category 5: Pixel
+
+UPDATE Activities 
+SET 
+  description = 'Enjoy an engaging session at our little gym designed for kids, with a maximum of 18 participants per session.'
+WHERE name = 'Little Gym';
+
+UPDATE Activities 
+SET 
+  description = 'Let your little ones have fun in our soft play area, suitable for ages 1-12 with 25 participants per session.'
+WHERE name = 'Soft Play';

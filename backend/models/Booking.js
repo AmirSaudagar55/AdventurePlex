@@ -1,56 +1,70 @@
+// models/Booking.js
 const { DataTypes } = require('sequelize');
 const sequelize = require('../db');
 const User = require('./User');
 const Activity = require('./Activity');
 
 const Booking = sequelize.define('Booking', {
-    id: {
-        type: DataTypes.INTEGER,
-        primaryKey: true,
-        autoIncrement: true
-    },
-    user_id: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-        references: {
-            model: User,
-            key: 'id'
-        }
-    },
-    activity_id: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-        references: {
-            model: Activity,
-            key: 'id'
-        }
-    },
-    booking_date: {
-        type: DataTypes.DATEONLY,
-        allowNull: false
-    },
-    start_time: {
-        type: DataTypes.TIME,
-        allowNull: false
-    },
-    participants: {
-        type: DataTypes.INTEGER,
-        allowNull: false
-    },
-    total_price: {
-        type: DataTypes.DECIMAL(10, 2),
-        allowNull: false
-    },
-    status: {
-        type: DataTypes.ENUM('pending', 'confirmed', 'cancelled'),
-        defaultValue: 'confirmed'
-    },
-    public_booking: {
-        type: DataTypes.BOOLEAN,
-        defaultValue: false
+  id: {
+    type: DataTypes.INTEGER,
+    primaryKey: true,
+    autoIncrement: true
+  },
+  user_id: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+    references: {
+      model: User,
+      key: 'id'
     }
+  },
+  activity_id: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+    references: {
+      model: Activity,
+      key: 'id'
+    }
+  },
+  booking_date: {
+    type: DataTypes.DATEONLY,
+    allowNull: false
+  },
+  start_time: {
+    type: DataTypes.TIME,
+    allowNull: false
+  },
+  end_time: {
+    type: DataTypes.TIME,
+    allowNull: false
+  },
+  participants: {
+    type: DataTypes.INTEGER,
+    allowNull: false
+  },
+  total_price: {
+    type: DataTypes.DECIMAL(10, 2),
+    allowNull: false
+  },
+  status: {
+    type: DataTypes.ENUM('pending', 'confirmed', 'cancelled'),
+    defaultValue: 'confirmed'
+  },
+  public_booking: {
+    type: DataTypes.BOOLEAN,
+    defaultValue: false
+  },
+  // New fields for payment integration:
+  razorpay_order_id: {
+    type: DataTypes.STRING,
+    allowNull: true
+  },
+  payment_status: {
+    type: DataTypes.ENUM('pending', 'paid'),
+    defaultValue: null
+  }
 }, {
-    timestamps: true
+  timestamps: true
 });
 
 module.exports = Booking;

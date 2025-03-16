@@ -39,4 +39,12 @@ export const categories = [
     image: 'https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?auto=format&fit=crop&q=80&w=1600',
     color: 'purple',
   },
+  {
+    id: '6',
+    name: 'Social',
+    slug: 'social',
+    description: 'Perfect venues for celebrations and gatherings',
+    image: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&q=80&w=1600',
+    color: 'pink',
+  }
 ] as const;

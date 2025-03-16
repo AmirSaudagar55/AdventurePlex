@@ -1,7 +1,7 @@
 export interface Activity {
   id: string;
   name: string;
-  category: 'prime' | 'studio' | 'union' | 'junior' | 'pixel';
+  category: 'prime' | 'studio' | 'union' | 'junior' | 'pixel' | 'social';
   price: number;
   duration: number;
   minAge: number;
@@ -14,7 +14,7 @@ export interface Activity {
 export interface Category {
   id: string;
   name: string;
-  slug: 'prime' | 'studio' | 'union' | 'junior' | 'pixel';
+  slug: 'prime' | 'studio' | 'union' | 'junior' | 'pixel' | 'social';
   description: string;
   image: string;
   color: string;

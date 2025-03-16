@@ -5,6 +5,11 @@ const Activity = require('./models/Activity');
 const Booking = require('./models/Booking');
 const Contact = require('./models/Contact');
 const Review = require('./models/Review');
+const BookingParticipant = require('./models/BookingParticipant');
+const ActivityImage = require('./models/ActivityImage');
+const ConferenceHall = require('./models/ConferenceHallModels/ConferenceHall')
+const ConferenceHallBooking = require('./models/ConferenceHallModels/ConferenceHallBooking')
+const ConferenceHallImage = require('./models/ConferenceHallModels/ConferenceHallImage');
 
 const syncDB = async () => {
     try {

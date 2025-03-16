@@ -7,6 +7,14 @@ const User = sequelize.define('User', {
         primaryKey: true,
         autoIncrement: true
     },
+    firstName: { 
+        type: DataTypes.STRING, 
+        allowNull: true 
+      },
+    lastName: { 
+        type: DataTypes.STRING, 
+        allowNull: true 
+      },
     name: {
         type: DataTypes.STRING,
         allowNull: false
@@ -26,7 +34,11 @@ const User = sequelize.define('User', {
     role: {
         type: DataTypes.ENUM('user', 'admin'),
         defaultValue: 'user'
-    }
+    },
+    profilePicture: {
+        type: DataTypes.STRING,
+        allowNull: true,
+      }
 }, {
     timestamps: true
 });

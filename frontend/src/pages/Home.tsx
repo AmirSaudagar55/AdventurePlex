@@ -1,9 +1,33 @@
-import { Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
-import { categories } from '../data/categories';
-import { activities } from '../data/activities';
+// src/pages/Home.jsx
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 
 export default function Home() {
+  const [categories, setCategories] = useState([]);
+  const [activities, setActivities] = useState([]);
+  const backendURL =
+    "https://5000-idx-adventureplex-1739096860464.cluster-e3wv6awer5h7kvayyfoein2u4a.cloudworkstations.dev";
+
+  useEffect(() => {
+    // Fetch categories from backend API
+    fetch(`${backendURL}/api/categories`)
+      .then((res) => res.json())
+      .then((data) => setCategories(data))
+      .catch((error) =>
+        console.error("Error fetching categories from backend:", error)
+      );
+
+    // Fetch activities from backend API
+    fetch(`${backendURL}/api/activities`)
+      .then((res) => res.json())
+      .then((data) => setActivities(data))
+      .catch((error) =>
+        console.error("Error fetching activities from backend:", error)
+      );
+  }, [backendURL]);
+
+  // Featured activities: first 4 items
   const featuredActivities = activities.slice(0, 4);
 
   return (
@@ -23,14 +47,15 @@ export default function Home() {
             Your Ultimate Adventure Awaits
           </h1>
           <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white">
-            Discover a world of excitement with our diverse range of sports, adventures, and entertainment activities.
+            Discover a world of excitement with our diverse range of sports,
+            adventures, and entertainment activities.
           </p>
           <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
             <Link
               to="/book"
               className="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700 sm:px-8"
             >
-              Book Now
+              Explore Now
             </Link>
           </div>
         </div>
@@ -56,15 +81,19 @@ export default function Home() {
             >
               <div className="aspect-h-2 aspect-w-3">
                 <img
-                  src={category.image}
+                  src={category.image_url}
                   alt={category.name}
                   className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/0" />
               </div>
               <div className="absolute bottom-0 p-6">
-                <h3 className="text-xl font-bold text-white">{category.name}</h3>
-                <p className="mt-2 text-sm text-gray-200">{category.description}</p>
+                <h3 className="text-xl font-bold text-white">
+                  {category.name}
+                </h3>
+                <p className="mt-2 text-sm text-gray-200">
+                  {category.description}
+                </p>
                 <div className="mt-4 flex items-center text-white">
                   <span className="text-sm font-medium">Explore</span>
                   <ArrowRight className="ml-2 h-4 w-4" />
@@ -91,21 +120,27 @@ export default function Home() {
             {featuredActivities.map((activity) => (
               <div
                 key={activity.id}
-                className="group relative overflow-hidden rounded-lg bg-white shadow"
+                className="group relative overflow-hidden rounded-lg bg-white shadow flex flex-col"
               >
                 <div className="aspect-h-3 aspect-w-4">
                   <img
-                    src={activity.image}
+                    src={activity.image_url}
                     alt={activity.name}
                     className="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                 </div>
-                <div className="p-6">
-                  <h3 className="text-lg font-semibold text-gray-900">{activity.name}</h3>
-                  <p className="mt-2 text-sm text-gray-500">{activity.description}</p>
-                  <div className="mt-4 flex items-center justify-between">
+                <div className="p-6 flex flex-col flex-grow">
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    {activity.name}
+                  </h3>
+                  {/* Limit description to three lines */}
+                  <p className="mt-2 text-sm text-gray-500 line-clamp-3">
+                    {activity.description}
+                  </p>
+                  {/* Spacer pushes footer to the bottom */}
+                  <div className="mt-auto pt-4 flex items-center justify-between">
                     <span className="text-lg font-medium text-indigo-600">
-                      ${activity.price}
+                      {activity.price}
                     </span>
                     <Link
                       to="/book"

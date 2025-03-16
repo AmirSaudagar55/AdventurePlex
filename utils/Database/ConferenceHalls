@@ -1,0 +1,75 @@
+INSERT INTO Categories (name, slug, description, image_url, color, createdAt, updatedAt)
+VALUES (
+  'Conference Halls', 
+  'conference-halls', 
+  'Conference halls for meetings and events', 
+  'https://ik.imagekit.io/r9wd8jzgs/meeting-room.jpg?updatedAt=1739941860778', 
+  'black', 
+  NOW(), 
+  NOW()
+);
+
+
+INSERT INTO ConferenceHalls 
+  (category_id, name, description, capacity, floorNumber, pricePerMin, location, features, image_url, available, createdAt, updatedAt)
+VALUES
+  (7, 'Alpha Conference Hall', 'A spacious hall equipped with modern amenities for large conferences.', 150, 1, 0.50, 'Building A, First Floor', '{"projector": true, "soundSystem": true}', 'https://ik.imagekit.io/r9wd8jzgs/tyler-callahan-e_RpjNyMgEM-unsplash.jpg?updatedAt=1739941409286', true, NOW(), NOW()),
+  (7, 'Beta Conference Hall', 'Ideal for corporate meetings and training sessions.', 80, 1, 0.40, 'Building A, First Floor', '{"projector": true, "soundSystem": false}', 'https://ik.imagekit.io/r9wd8jzgs/myko-makhlai-3il_GxILUF8-unsplash.jpg?updatedAt=1739941413933', true, NOW(), NOW()),
+  (7, 'Gamma Conference Hall', 'An elegant hall perfect for high-level conferences.', 200, 2, 0.75, 'Building B, Second Floor', '{"projector": true, "soundSystem": true, "videoConferencing": true}', 'https://ik.imagekit.io/r9wd8jzgs/strategic-meeting-room-setting-staged-crucial-business-decisions.jpg?updatedAt=1739941879516', true, NOW(), NOW()),
+  (7, 'Delta Conference Hall', 'A cozy and intimate space for small gatherings and meetings.', 40, 2, 0.35, 'Building B, Second Floor', '{"projector": false, "soundSystem": false}', 'https://ik.imagekit.io/r9wd8jzgs/asia-culturecenter-mlp5WY7c0XE-unsplash.jpg?updatedAt=1739941411717', true, NOW(), NOW()),
+  (7, 'Epsilon Conference Hall', 'A state-of-the-art hall for large-scale events and seminars.', 250, 1, 1.00, 'Building C, First Floor', '{"projector": true, "soundSystem": true, "lighting": true}', 'https://ik.imagekit.io/r9wd8jzgs/asia-culturecenter-8Vhl4KvlJE8-unsplash.jpg?updatedAt=1739941409681', true, NOW(), NOW());
+
+
+-- For Alpha Conference Hall (id = 1)
+INSERT INTO ConferenceHallImages (conferenceHallId, imageUrl, createdAt, updatedAt)
+VALUES 
+  (1, 'https://ik.imagekit.io/r9wd8jzgs/tyler-callahan-e_RpjNyMgEM-unsplash.jpg?updatedAt=1739941409286', NOW(), NOW()),
+  (1, 'https://ik.imagekit.io/r9wd8jzgs/product-school-D0rMhzEwiEA-unsplash.jpg?updatedAt=1739941407963', NOW(), NOW());
+
+-- For Beta Conference Hall (id = 2)
+INSERT INTO ConferenceHallImages (conferenceHallId, imageUrl, createdAt, updatedAt)
+VALUES 
+  (2, 'https://ik.imagekit.io/r9wd8jzgs/myko-makhlai-3il_GxILUF8-unsplash.jpg?updatedAt=1739941413933', NOW(), NOW()),
+  (2, 'https://ik.imagekit.io/r9wd8jzgs/product-school-8ohCiNjxOls-unsplash.jpg?updatedAt=1739941406145', NOW(), NOW());
+
+-- For Gamma Conference Hall (id = 3)
+INSERT INTO ConferenceHallImages (conferenceHallId, imageUrl, createdAt, updatedAt)
+VALUES 
+  (3, 'https://ik.imagekit.io/r9wd8jzgs/strategic-meeting-room-setting-staged-crucial-business-decisions.jpg?updatedAt=1739941879516', NOW(), NOW()),
+  (3, 'https://ik.imagekit.io/r9wd8jzgs/meeting-room.jpg?updatedAt=1739941860778', NOW(), NOW());
+
+-- For Delta Conference Hall (id = 4)
+INSERT INTO ConferenceHallImages (conferenceHallId, imageUrl, createdAt, updatedAt)
+VALUES 
+  (4, 'https://ik.imagekit.io/r9wd8jzgs/asia-culturecenter-mlp5WY7c0XE-unsplash.jpg?updatedAt=1739941411717', NOW(), NOW()),
+  (4, 'https://ik.imagekit.io/r9wd8jzgs/meeting-room.jpg?updatedAt=1739941860778', NOW(), NOW());
+
+-- For Epsilon Conference Hall (id = 5)
+INSERT INTO ConferenceHallImages (conferenceHallId, imageUrl, createdAt, updatedAt)
+VALUES 
+  (5, 'https://ik.imagekit.io/r9wd8jzgs/asia-culturecenter-8Vhl4KvlJE8-unsplash.jpg?updatedAt=1739941409681', NOW(), NOW()),
+  (5, 'https://ik.imagekit.io/r9wd8jzgs/asia-culturecenter-2qv-Ot8gSIU-unsplash.jpg?updatedAt=1739941412042', NOW(), NOW());
+
+
+
+
+
+  Alpha Conference Hall (id : 1):
+  img1 : https://ik.imagekit.io/r9wd8jzgs/tyler-callahan-e_RpjNyMgEM-unsplash.jpg?updatedAt=1739941409286
+  img2 : https://ik.imagekit.io/r9wd8jzgs/product-school-D0rMhzEwiEA-unsplash.jpg?updatedAt=1739941407963
+
+  Beta Conference Hall (id : 2):
+  img1 : https://ik.imagekit.io/r9wd8jzgs/myko-makhlai-3il_GxILUF8-unsplash.jpg?updatedAt=1739941413933
+  img2 : https://ik.imagekit.io/r9wd8jzgs/product-school-8ohCiNjxOls-unsplash.jpg?updatedAt=1739941406145
+
+  Gamma Conference Hall (id : 3):
+  img1 : https://ik.imagekit.io/r9wd8jzgs/strategic-meeting-room-setting-staged-crucial-business-decisions.jpg?updatedAt=1739941879516
+  img2 : https://ik.imagekit.io/r9wd8jzgs/meeting-room.jpg?updatedAt=1739941860778
+
+  Delta Conference Hall (id : 4):
+  img1 : https://ik.imagekit.io/r9wd8jzgs/asia-culturecenter-mlp5WY7c0XE-unsplash.jpg?updatedAt=1739941411717
+  img2 : https://ik.imagekit.io/r9wd8jzgs/meeting-room.jpg?updatedAt=1739941860778
+
+  Epsilon Conference Hall (id : 5):
+  img1 : https://ik.imagekit.io/r9wd8jzgs/asia-culturecenter-8Vhl4KvlJE8-unsplash.jpg?updatedAt=1739941409681
+  img2 : https://ik.imagekit.io/r9wd8jzgs/asia-culturecenter-2qv-Ot8gSIU-unsplash.jpg?updatedAt=1739941412042
